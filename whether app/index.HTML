@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sun">
+        <img class="sun" src="sun.jpg" alt="sun">
+    </div>
+    <div class="box">
+        <h1>Weather</h1>
+        <h1 class="heading">
+            Explorer
+        </h1>
+        <input type="search" name="Weather" id="cityInput">
+        <button onclick="getWeather()">search</button>
+       <div class="calbar">
+  <div class="infinite-scroll-container">
+    <div class="infinite-scroll-track">
+      <!-- 🔁 Set 1 -->
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>☁️</h3>
+          <h4>Nashik</h4>
+          <p>30℃</p>
+        </div>
+      </div>
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>🌧️</h3>
+          <h4>Mumbai</h4>
+          <p>28℃</p>
+        </div>
+      </div>
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>⛅</h3>
+          <h4>Pune</h4>
+          <p>32℃</p>
+        </div>
+      </div>
+
+      <!-- 🔁 Set 2 (duplicate for infinite effect) -->
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>☁️</h3>
+          <h4>Nashik</h4>
+          <p>30℃</p>
+        </div>
+      </div>
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>🌧️</h3>
+          <h4>Mumbai</h4>
+          <p>28℃</p>
+        </div>
+      </div>
+      <div class="infinite-scroll-card">
+        <div class="card-content">
+          <h3>⛅</h3>
+          <h4>Pune</h4>
+          <p>32℃</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
